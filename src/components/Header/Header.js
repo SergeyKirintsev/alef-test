@@ -9,6 +9,7 @@ function Header() {
         <div className="header__container">
           <Logo />
           <Navigation/>
+          <div></div>
         </div>
       </header>
   );

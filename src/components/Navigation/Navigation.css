@@ -1,0 +1,16 @@
+.navigation__link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: rgba(17, 17, 17, 0.48);
+
+  text-decoration: none;
+
+  margin-right: 24px;
+}
+
+.navigation__link:last-of-type {
+  margin-right: 0;
+}

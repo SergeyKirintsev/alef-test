@@ -1,0 +1,17 @@
+.header {
+  border-bottom: 1px solid grey;
+}
+
+.header__container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1366px;
+  min-width: 320px;
+  min-height: 76px;
+
+  padding: 0 92px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

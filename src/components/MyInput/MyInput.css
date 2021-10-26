@@ -1,0 +1,41 @@
+.my-input__wrap {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.my-input {
+  display: block;
+  width: 100%;
+  height: 56px;
+  box-sizing: border-box;
+  padding: 20px 16px 6px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  /* Colors / Black */
+
+  color: #111111;
+}
+
+.my-input__label {
+  position: absolute;
+  transform: translate(16px, -50px);
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+
+  color: rgba(17, 17, 17, 0.48);
+  transition: transform 0.3s;
+}
+
+.my-input:invalid + label {
+  transform: translate(16px, -30px);
+}

@@ -5,7 +5,7 @@ import logo from '../../images/logo.jpg';
 function Logo() {
   return (
     <Link to="/">
-      <img src={logo} className="header__logo" alt="logo ALEF" />
+      <img src={logo} className="logo" alt="logo ALEF" />
     </Link>
   );
 }
