@@ -11,3 +11,50 @@
 
   color: #111111;
 }
+
+.family-form__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.family-form__add-btn {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Colors / Primary */
+
+  color: #01A7FD;
+  background-color: transparent;
+
+  padding: 10px 20px;
+
+  width: 204px;
+  height: 44px;
+
+
+  /* Colors / Primary */
+
+  border: 2px solid #01A7FD;
+  box-sizing: border-box;
+  border-radius: 100px;
+
+  cursor: pointer;
+}
+
+.family-form__img-btn {
+  margin-right: 4px;
+}
+
+.family-form__add-btn_disabled {
+  background: #FFFFFF;
+  opacity: 0.56;
+  pointer-events: none;
+}

@@ -1,0 +1,17 @@
+.child-list__remove-btn {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #01A7FD;
+
+  padding: 3px;
+
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+
+  align-self: center;
+}
