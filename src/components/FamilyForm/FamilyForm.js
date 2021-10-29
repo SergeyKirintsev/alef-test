@@ -11,7 +11,7 @@ function FamilyForm({parent, children, addChild, removeChild, handleParentChange
   return (
     <section className='family-form'>
       <div className='family-form__container'>
-        <h2 className='family-form__title'>Персональные данные</h2>
+        <h2 className='family-form__title'>Персональные данные 123</h2>
         <MyInput placeholder='Имя' name='name' value={parent.name} onChange={handleParentChange}/>
         <MyInput placeholder='Возраст' name='age' value={parent.age} onChange={handleParentChange}/>
 
